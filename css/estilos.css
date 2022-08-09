@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+}
+body{
+	background: lightgrey;
+	
+}
+header,#contenido ,footer{
+	margin: 0 auto;
+	width: 800px;
+	padding: 20px;
+}
+header{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: dimgray;
+   color: white;
+}
+#contenido{
+   min-height: calc(100vh - 200px);
+   background: white;
+}
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   height: 20px;
+   background: dimgray;
+   color: white;
+}

@@ -30,3 +30,8 @@ footer{
    background: dimgray;
    color: white;
 }
+p{
+	margin-bottom: 30px;
+	padding: 10px;
+	background: ivory;
+}
